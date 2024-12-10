@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Welcome to our online banking service. How may I help you?",
+        "Hi! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "balance_check",
+      "patterns": [
+        "Check my account balance",
+        "What's my balance?",
+        "Show me my balance",
+        "How much money do I have?"
+      ],
+      "responses": [
+        "You can check your balance by logging into your account or visiting the 'Account Balance' section.",
+        "Please log in to view your current account balance.",
+        "To check your balance, head over to the 'Balance Enquiry' section in your account dashboard."
+      ]
+    },
+    {
+      "tag": "fund_transfer",
+      "patterns": [
+        "How can I transfer money?",
+        "Send money to another account",
+        "Fund transfer options",
+        "Transfer funds to another bank account"
+      ],
+      "responses": [
+        "To transfer funds, log in to your account and go to the 'Fund Transfer' section.",
+        "You can transfer money via NEFT, RTGS, or IMPS from the 'Transfers' section.",
+        "Select the type of transfer (NEFT, RTGS, IMPS) and enter the recipient's account details to complete the transfer."
+      ]
+    },{
+      "tag": "error_100",
+      "patterns": [
+        "What does error 100 mean?",
+        "Error 100",
+        "Transaction failed with error 100",
+        "What is error 100?"
+      ],
+      "responses": [
+        "Error 100 indicates a general network issue. Please check your internet connection or try again later.",
+        "This error occurs when there is a network connection failure. Ensure you have a stable internet connection and retry the transaction."
+      ]
+    },
+    {
+      "tag": "error_200",
+      "patterns": [
+        "What does error 200 mean?",
+        "Error 200",
+        "Transaction failed with error 200",
+        "What is error 200?"
+      ],
+      "responses": [
+        "Error 200 means there is an issue with your account authentication. Please log out and log back in.",
+        "This error occurs due to an authentication failure. Kindly re-enter your login credentials or reset your password if needed."
+      ]
+    },
+    {
+      "tag": "error_300",
+      "patterns": [
+        "What does error 300 mean?",
+        "Error 300",
+        "Transaction failed with error 300",
+        "What is error 300?"
+      ],
+      "responses": [
+        "Error 300 indicates insufficient funds in your account. Please check your balance and try again.",
+        "This error means your account balance is too low to complete the transaction. Ensure sufficient funds before proceeding."
+      ]
+    },
+    {
+      "tag": "error_400",
+      "patterns": [
+        "What does error 400 mean?",
+        "Error 400",
+        "Transaction failed with error 400",
+        "What is error 400?"
+      ],
+      "responses": [
+        "Error 400 indicates a bad request. Please check the details you entered and try again.",
+        "This error happens when there is an issue with the request format or missing information. Double-check your inputs and retry."
+      ]
+    },
+    {
+      "tag": "loan_application",
+      "patterns": [
+        "How can I apply for a loan?",
+        "Loan application process",
+        "Apply for a loan",
+        "Steps to apply for a personal loan"
+      ],
+      "responses": [
+        "You can apply for a loan by logging into your account and visiting the 'Loan Services' section.",
+        "To apply for a loan, go to the 'Loan Application' section, fill in the required details, and submit the form.",
+        "You can apply for personal, home, or car loans directly from your online banking dashboard."
+      ]
+    },
+    {
+      "tag": "card_block",
+      "patterns": [
+        "How can I block my card?",
+        "Block my debit card",
+        "Block credit card",
+        "Lost my card, block it"
+      ],
+      "responses": [
+        "To block your card, log in and navigate to the 'Card Services' section, then choose 'Block Card.'",
+        "You can block your card immediately by calling our customer care or using the online 'Block Card' option.",
+        "For card blocking, go to the 'Services' tab and select 'Block Debit/Credit Card'."
+      ]
+    },
+    {
+      "tag": "transaction_history",
+      "patterns": [
+        "How can I check my transaction history?",
+        "Show my recent transactions",
+        "Transaction history",
+        "View past transactions"
+      ],
+      "responses": [
+        "You can view your transaction history by logging into your account and going to the 'Transaction History' section.",
+        "Visit the 'Account Statements' tab to see a detailed list of your past transactions.",
+        "Your recent transactions can be found under the 'Transaction History' or 'Account Activity' section."
+      ]
+    },
+    {
+      "tag": "atm_locations",
+      "patterns": [
+        "Where is the nearest ATM?",
+        "Find an ATM near me",
+        "ATM locations",
+        "ATM locator"
+      ],
+      "responses": [
+        "You can find the nearest ATM by using the 'ATM Locator' feature on our website or mobile app.",
+        "Visit our 'ATM Locator' page and enter your location to find the closest ATMs.",
+        "To find nearby ATMs, use the 'ATM Finder' option in the mobile banking app."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "I need help",
+        "Contact customer support",
+        "Speak to a representative",
+        "Customer service number"
+      ],
+      "responses": [
+        "You can reach customer support via our toll-free number or use the live chat option on our website.",
+        "For assistance, call our customer care team or visit the 'Help & Support' section on the app.",
+        "Our customer support is available 24/7. Feel free to contact us via the provided helpline number."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, I'm done"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Thanks for using our service. Take care!",
+        "See you again! Stay safe."
+      ]
+    }
+  ]
+}
+
